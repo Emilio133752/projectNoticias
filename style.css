@@ -192,8 +192,28 @@ main{
 
     .primeira-secao{
         grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
     }
     
+    .primeira-secao picture{
+        grid-column: 1 / 3;
+    }
+
+    .primeira-secao img{
+        margin: 0;
+    }
+
+    .primeira-secao h1{
+        font-size: 3.5rem;
+    }
+
+    .segunda-secao h2{
+        font-size:2.25rem
+    }
+
+
     header > button{
         display: none;
     }
